@@ -1,4 +1,3 @@
-/* Reset y fuentes */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +12,6 @@ body {
   line-height: 1.6;
 }
 
-/* HEADER */
 header {
   text-align: center;
   padding: 40px 20px 20px;
@@ -26,7 +24,6 @@ header h1 {
   text-shadow: 0 0 10px rgb(174, 0, 255);
 }
 
-/* NAV (para el back button) */
 nav {
   padding: 10px 20px;
 }
@@ -58,7 +55,6 @@ main {
   margin: auto;
 }
 
-/* SECTION TITLES */
 .projects h2,
 .contact h2,
 .about h2 {
@@ -68,7 +64,6 @@ main {
   text-shadow: 0 0 5px rgb(132, 0, 255);
 }
 
-/* GRID DE PROYECTOS */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -76,7 +71,6 @@ main {
   margin-bottom: 40px;
 }
 
-/* TARJETA DE PROYECTOS */
 .project-card {
   background: rgba(51, 0, 102, 0.8);
   padding: 20px;
@@ -96,7 +90,6 @@ main {
   margin-bottom: 10px;
 }
 
-/* BOTONES */
 a.btn {
   display: inline-block;
   padding: 0.5em 1em;
@@ -115,7 +108,6 @@ a.btn:focus {
   outline: none;
 }
 
-/* SECCIÓN ABOUT */
 .about-card {
   background: rgba(102, 0, 204, 0.7);
   padding: 20px;
@@ -137,7 +129,6 @@ a.btn:focus {
   line-height: 1.5;
 }
 
-/* CONTACTO */
 .contact-info {
   text-align: center;
   font-size: 16px;
@@ -158,12 +149,10 @@ a.btn:focus {
   outline: none;
 }
 
-/* ENLACES GENERALES */
 a {
   transition: color 0.3s, text-decoration 0.3s;
 }
 
-/* ACCESIBILIDAD */
 .project-card:focus-within,
 .back-btn:focus,
 a.btn:focus,
