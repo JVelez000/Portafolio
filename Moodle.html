@@ -3,41 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Moodle Projects</title>
+  <title>Moodle-Projects</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>Moodle-Projects</h1>
-    <nav>
-      <a href="index.html" class="back-btn">⬅ Back to Index</a>
-    </nav>
   </header>
 
+  <nav>
+    <a href="index.html" class="back-btn">⬅ Back to Index</a>
+  </nav>
+
   <main>
-    <section class="projects">
-      <h2>Moodle-Projects</h2>
+    <section class="projects" aria-labelledby="moodle-projects-title">
+      <h2 id="moodle-projects-title">Moodle-Projects</h2>
       <div class="project-grid">
         <article class="project-card">
-          <h3>Portafolio</h3>
-          <p>Project-1</p>
-          <a href="https://jvelez000.github.io/Portafolio/" class="btn" target="_blank">Portafolio</a>
+          <h3>Project A</h3>
+          <p>Description or detail about Project A</p>
+          <a href="https://jvelez000.github.io/MoodleProjectA/" class="btn" target="_blank" rel="noopener noreferrer">View Project A</a>
         </article>
         <article class="project-card">
-          <h3>Project 2</h3>
-          <p>In progress</p>
+          <h3>Project B</h3>
+          <p>Description or detail about Project B</p>
+          <a href="https://jvelez000.github.io/MoodleProjectB/" class="btn" target="_blank" rel="noopener noreferrer">View Project B</a>
         </article>
+        <!-- Puedes agregar más proyectos aquí con <article> -->
       </div>
     </section>
 
-    <footer class="contact">
-      <h2>Contact</h2>
-      <address>
+    <aside class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <address class="contact-info">
         <p><strong>Email:</strong> <a href="mailto:jeims1221jeims@gmail.com">jeims1221jeims@gmail.com</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/JVelez000" target="_blank">github.com/JVelez000</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/JVelez000" target="_blank" rel="noopener noreferrer">github.com/JVelez000</a></p>
         <p><strong>Discord:</strong> jvelez00</p>
       </address>
-    </footer>
+    </aside>
   </main>
 </body>
 </html>

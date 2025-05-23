@@ -9,48 +9,39 @@
 <body>
   <header>
     <h1>PORTAFOLIO</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
   <main>
-    <section id="about" class="about">
-      <h2>About Me</h2>
-      <article>
-        <header>
-          <h3>Jeims Emmanuel Velez - Riwi Student</h3>
-        </header>
+    <section class="about" aria-labelledby="about-title">
+      <h2 id="about-title">About Me</h2>
+      <article class="about-card">
+        <h3>Jeims Emmanuel Velez - Riwi Student</h3>
         <p>Hello, I am Jeims. A student from Riwi. I don't have experience programming but I am learning fast. I wish I can become a Software Developer in 1 year. I am passionate about Ethical Hacking, Cybersecurity, and similar themes.</p>
       </article>
     </section>
 
-    <section id="projects" class="projects">
-      <h2>My Projects</h2>
+    <section class="projects" aria-labelledby="my-projects-title">
+      <h2 id="my-projects-title">My Projects</h2>
       <div class="project-grid">
         <article class="project-card">
           <h3>Moodle-Projects</h3>
-          <a href="Moodle.html" class="btn">Moodle</a>
+          <a href="Moodle.html" class="btn" target="_self">Moodle</a>
         </article>
         <article class="project-card">
           <h3>Git-Projects</h3>
-          <a href="Git.html" class="btn">Git</a>
+          <a href="Git.html" class="btn" target="_self">Git</a>
         </article>
       </div>
     </section>
 
-    <footer id="contact" class="contact">
-      <h2>Contact</h2>
-      <address>
+    <section class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <address class="contact-info">
         <p><strong>Email:</strong> <a href="mailto:jeims1221jeims@gmail.com">jeims1221jeims@gmail.com</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/JVelez000" target="_blank">github.com/JVelez000</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/JVelez000" target="_blank" rel="noopener noreferrer">github.com/JVelez000</a></p>
         <p><strong>Discord:</strong> jvelez00</p>
       </address>
-    </footer>
+    </section>
   </main>
 </body>
 </html>
