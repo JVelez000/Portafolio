@@ -160,3 +160,21 @@ a.btn:focus,
   outline: 2px solid #00e1ff;
   outline-offset: 2px;
 }
+
+.qr-code {
+  width: 100px;
+  height: auto;
+  margin: 10px 0;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.imagenes-portadas {
+  width: 100px;
+  height: auto;
+  margin: 10px 0;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
