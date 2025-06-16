@@ -171,8 +171,8 @@ a.btn:focus,
 }
 
 .imagenes-portadas {
-  width: 100px;
-  height: auto;
+  width: auto;
+  height: 100px;
   margin: 10px 0;
   display: block;
   border-radius: 8px;
